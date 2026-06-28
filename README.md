@@ -53,31 +53,31 @@ This project demonstrates the process of capturing and analyzing live network tr
 
 ## 1. Wireshark Home Screen
 
-![Home Screen](Screenshots/01_home_screen.png)
+![Home Screen](Screenshots/01_home_screen.png.png)
 
 ---
 
 ## 2. Packet Capture Started
 
-![Capture Started](Screenshots/02_capture_started.png)
+![Capture Started](Screenshots/02_capture_started.png.png)
 
 ---
 
 ## 3. ICMP Ping
 
-![Ping](Screenshots/03_ping.png)
+![Ping](Screenshots\03_ping.png.png")
 
 ---
 
 ## 4. Captured Packet List
 
-![Packet List](Screenshots/04_packet_list.png)
+![Packet List](Screenshots/04_packet_list.png.png)
 
 ---
 
 ## 5. DNS Analysis
 
-![DNS](Screenshots/05_dns_filter.png)
+![DNS](Screenshots/05_dns_filter.png.png)
 
 DNS packets were captured successfully while resolving domain names into IP addresses.
 
@@ -85,7 +85,7 @@ DNS packets were captured successfully while resolving domain names into IP addr
 
 ## 6. TCP Analysis
 
-![TCP](Screenshots/06_tcp_filter.png)
+![TCP](Screenshots/06_tcp_filter.png.png)
 
 TCP packets were analyzed to observe reliable communication between client and server.
 
@@ -93,7 +93,7 @@ TCP packets were analyzed to observe reliable communication between client and s
 
 ## 7. TLS Analysis
 
-![TLS](Screenshots/07_tls_filter.png)
+![TLS](Screenshots/07_tls_filter.png.png)
 
 Encrypted HTTPS traffic was observed using the TLS protocol.
 
@@ -101,7 +101,7 @@ Encrypted HTTPS traffic was observed using the TLS protocol.
 
 ## 8. ICMP Analysis
 
-![ICMP](Screenshots/08_icmp_filter.png)
+![ICMP](Screenshots/08_icmp_filter.png.png)
 
 ICMP Echo Request and Echo Reply packets were captured using the ping command.
 
@@ -109,7 +109,7 @@ ICMP Echo Request and Echo Reply packets were captured using the ping command.
 
 ## 9. TCP Stream Analysis
 
-![TCP Stream](Screenshots/09_tcp_stream.png)
+![TCP Stream](Screenshots/09_tcp_stream.png.png)
 
 The Follow TCP Stream feature was used to inspect communication between the client and the server.
 
@@ -117,7 +117,7 @@ The Follow TCP Stream feature was used to inspect communication between the clie
 
 ## 10. Protocol Hierarchy
 
-![Protocol Hierarchy](Screenshots/10_protocol_hierarchy.png)
+![Protocol Hierarchy](Screenshots/10_protocol_hierarchy.png.png)
 
 Protocol Hierarchy was used to identify the distribution of captured protocols.
 
