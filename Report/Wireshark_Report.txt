@@ -1,0 +1,94 @@
+# Network Traffic Analysis using Wireshark
+
+## Objective
+
+The objective of this project is to capture and analyze network traffic using Wireshark in order to understand how different network protocols communicate over a network. This project demonstrates the basic process of packet capturing, protocol analysis, and traffic monitoring from a Security Analyst's perspective.
+
+---
+
+## Tools Used
+
+* Wireshark
+* Kali Linux
+* Google Chrome / Firefox
+* Terminal (Ping Utility)
+
+---
+
+## Methodology
+
+1. Launched Wireshark on Kali Linux.
+2. Selected the active network interface (wlan0/eth0).
+3. Started packet capturing.
+4. Generated network traffic by visiting websites such as Google, GitHub, Wikipedia.
+5. Executed ICMP requests using the ping command.
+6. Stopped packet capture and saved the capture file (.pcapng).
+7. Applied protocol filters to analyze DNS, TCP, TLS, and ICMP traffic.
+8. Examined Protocol Hierarchy and TCP Stream for protocol analysis.
+
+---
+
+## Protocol Analysis
+
+### DNS Analysis
+
+DNS packets were captured successfully while accessing multiple websites. The DNS protocol resolved domain names into their corresponding IP addresses before establishing network communication.
+
+**Screenshot:** dns_filtering.png
+
+---
+
+### TCP Analysis
+
+TCP traffic was observed during communication between the local machine and remote servers. TCP connections were established before data transmission, demonstrating reliable communication.
+
+**Screenshot:** tcp_filtering.png
+
+---
+
+### TLS Analysis
+
+TLS packets were captured while browsing HTTPS-enabled websites. Since modern websites use HTTPS, the captured traffic was encrypted, ensuring secure communication between the client and server.
+
+**Screenshot:** tls_filtering.png
+
+---
+
+### ICMP Analysis
+
+ICMP Echo Request and Echo Reply packets were successfully captured using the ping command. This demonstrates basic network connectivity testing.
+
+**Screenshot:** icmp_filtering.png
+
+---
+
+### TCP Stream Analysis
+
+The Follow TCP Stream feature was used to inspect the communication between the client and the server. This feature helps analysts understand complete conversations within a TCP session.
+
+**Screenshot:** tcp_stream.png
+
+---
+
+### Protocol Hierarchy
+
+Protocol Hierarchy was used to identify the distribution of different protocols observed during packet capture. Ethernet, IPv4, TCP, UDP, DNS, TLS, and ICMP protocols were identified.
+
+**Screenshot:** protocol_hierarchy.png
+
+---
+
+## Findings
+
+* Successfully captured live network traffic.
+* Observed DNS name resolution.
+* Identified TCP communication between client and server.
+* Analyzed encrypted TLS traffic.
+* Verified ICMP communication using the ping utility.
+* Examined protocol distribution using Protocol Hierarchy.
+
+---
+
+## Conclusion
+
+This project provided practical experience in packet capturing and protocol analysis using Wireshark. It improved understanding of network communication, protocol behavior, and basic traffic analysis techniques commonly used in Security Operations Center (SOC) environments.
