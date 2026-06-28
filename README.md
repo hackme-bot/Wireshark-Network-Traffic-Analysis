@@ -65,7 +65,7 @@ This project demonstrates the process of capturing and analyzing live network tr
 
 ## 3. ICMP Ping
 
-![Ping](Screenshots\03_ping.png.png")
+![Ping](Screenshots/03_ping.png.png)
 
 ---
 
